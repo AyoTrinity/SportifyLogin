@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    display: flex;
+    padding: 25px;
+    background-color: black;
+}
+.logo:hover{
+    display: flex;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.bigbox{
+    text-align: center;
+    border-radius: 24px;
+    background-color: rgb(0, 0, 0);
+}
